@@ -873,4 +873,4 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.video("https://youtu.be/SQnc1QibapQ?si=Yx6pZDy6NlGax5ax")
+st.video("https://youtu.be/2oo8SNo39A8?si=ioHAlGCnwq13Dj4V")
