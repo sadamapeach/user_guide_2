@@ -406,7 +406,7 @@ data = [
 ]
 df_merge_transpose = pd.DataFrame(data, columns=columns)
 
-num_cols = ["REGION 1", "REGION 2", "TOTAL"]
+num_cols = ["MBTS", "Reposition", "Reroute", "TOTAL"]
 df_merge_transpose_styled = (
     df_merge_transpose.style
     .format({col: format_rupiah for col in num_cols})
