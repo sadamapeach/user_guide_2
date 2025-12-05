@@ -363,7 +363,7 @@ def release_the_balloons():
 st.download_button(
     label="Dummy Dataset",
     data=file_data,
-    file_name="dummy dataset.xlsx",
+    file_name="Dummy Dataset - TCO Comparison by Region.xlsx",
     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     on_click=release_the_balloons,
     type="primary",
@@ -703,7 +703,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-tab1, tab2 = st.tabs(["Original Data", "Transpose Data"])
+tab1, tab2 = st.tabs(["ORIGINAL DATA", "TRANSPOSE DATA"])
 
 with tab1:
     dataframes = {
@@ -801,7 +801,7 @@ with tab1:
         st.download_button(
             label="Download",
             data=excel_bytes,
-            file_name="super botton - original.xlsx",
+            file_name="Super Botton - Original Data - TCO Comparison by Region.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             type="primary",
             use_container_width=True,
@@ -904,7 +904,7 @@ with tab2:
         tab2.download_button(
             label="Download",
             data=excel_bytes,
-            file_name="super botton - transpose.xlsx",
+            file_name="Super Botton - Transpose Data - TCO Comparison by Region.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             type="primary",
             use_container_width=True,
