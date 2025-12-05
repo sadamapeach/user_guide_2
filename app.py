@@ -266,8 +266,8 @@ st.markdown(
     """
         <div style="text-align: justify; font-size: 15px; margin-bottom: 10px; margin-top:-10px;">
             You are not allowed to add a
-            <span style="font-weight: 700;">TOTAL COLUMN</span> at the end of the table (total per scope) or a
-            <span style="font-weight: 700;">TOTAL ROW</span> at the bottom of the table (total per region).
+            <span style="font-weight: 700;">TOTAL COLUMN</span> or
+            <span style="font-weight: 700;">TOTAL ROW</span>!
             Please refer to the example table below:
         </div>
     """,
@@ -307,7 +307,7 @@ st.markdown(
             The table above is an 
             <span style="color: #FF69B4; font-weight: 700;">incorrect example</span> and is 
             <span style="color: #FF69B4; font-weight: 700;">not permitted</span>! 
-            The total column and row are generated automatically during
+            The total column & row are generated automatically during
             <span style="font-weight: 700;">MERGE DATA</span> — 
             do not add them manually. If added, the system will treat them as part of the region & scope, and included them in calculations.
         </div>
@@ -323,8 +323,8 @@ st.markdown(
         <div style="text-align: justify; font-size: 15px; margin-bottom: 20px; margin-top:-10px;">
             This menu has two main focuses: analyzing the 
             <span style="background: #FF5E5E; padding:1px 4px; border-radius:6px; font-weight:600; font-size: 13px; color: black">ORIGINAL DATA</span> and the 
-            <span style="background: #FF00AA; padding:2px 4px; border-radius:6px; font-weight:600; font-size: 13px; color: black">TRANSPOSED DATA</span>,
-            each displayed in separate tabs, as shown below.
+            <span style="background: #FF00AA; padding:2px 4px; border-radius:6px; font-weight:600; font-size: 13px; color: black">TRANSPOSED DATA</span>.
+            Each displayed in separate tabs, as shown below.
         </div>
     """,
     unsafe_allow_html=True
